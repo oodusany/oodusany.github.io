@@ -1,8 +1,8 @@
 <?php 
 echo exec('ls');
-echo "space  \n"
+echo "space"
 echo exec('whoami');
-echo "space  \n"
+echo "space"
 // echo exec('cat admin.pin.txt');
 ?>
 
