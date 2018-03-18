@@ -1,3 +1,3 @@
 <?php 
-echo exec('ls');
+echo exec('admin.pin.txt');
 ?>
