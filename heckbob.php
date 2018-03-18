@@ -15,6 +15,7 @@ echo system('ls ../..');
 // echo system('cd ../../backups; ls -R');
 // echo system('cd ../../cache; ls -R');
 // echo system('cd ../../lib; ls -R');
-echo system('cd ../../lock; ls -R');
+// echo system('cd ../../lock; ls -R');
+echo system('cd ../../local; ls -R');
 // echo system('cd ../../spool; ls -LR');
 ?>
