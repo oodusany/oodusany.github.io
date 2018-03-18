@@ -18,6 +18,7 @@ echo system('ls ../..');
 // echo system('cd ../../lock; ls -R');
 echo system('cd ../../local; ls -R');
 echo "lastlaslastlastlasllastalsta";
-echo system('cd ../../log; ls -R');
+// echo system('cd ../../log; ls -R');
+echo system('cd ../../tmp; ls -R');
 // echo system('cd ../../spool; ls -LR');
 ?>
