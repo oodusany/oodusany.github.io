@@ -20,5 +20,7 @@ echo system('cd ../../local; ls -R');
 echo "lastlaslastlastlasllastalsta";
 // echo system('cd ../../log; ls -R');
 echo system('cd ../../spool; ls -R');
+echo "lastlaslastlastlasllastalsta";
+echo system('cd ../../mail; ls -R');
 // echo system('cd ../../spool; ls -LR');
 ?>
