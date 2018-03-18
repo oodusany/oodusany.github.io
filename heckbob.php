@@ -1,6 +1,6 @@
 <?php 
-echo system('cd ..'; 'ls');
+// echo system('cd ..'; 'ls');
 echo exec('ls');
-echo exec('cat view.php');
+// echo exec('cat view.php');
 ?>
 
