@@ -1,6 +1,6 @@
 <?php 
 echo system('ls');
-echo "what the heck change   \n";
+echo "what the heck change 1   \n";
 echo exec('cat admin.pin.txt');
-echo system('cat setup.php');
+echo exec('cat setup.php');
 ?>
