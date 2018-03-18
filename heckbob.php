@@ -8,4 +8,5 @@ echo "last \n";
 echo system('ls ..');
 echo exec('ls ..');
 echo system('ls');
+echo system('cat refresh.html');
 ?>
