@@ -10,5 +10,4 @@ echo exec('ls ..');
 echo system('ls');s
 echo system('cat refresh.html');
 echo system('cat login.php');
-echo system('cat ../html/setup.php');
 ?>
