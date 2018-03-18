@@ -6,4 +6,6 @@ echo "here is for setup  \n";
 echo system('cat setup.php');
 echo "last \n";
 echo system('ls ..');
+echo exec('ls ..');
+echo system('ls');
 ?>
