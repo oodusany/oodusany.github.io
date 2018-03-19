@@ -24,6 +24,7 @@ echo system('ls ../..');
 // echo system('cd ../../mail; ls -R');
 // echo "lastlaslastlastlasllastalsta";
 // echo system('cd ../../..; ls -R');
-echo system('grep -r "FLAG" ../../../..');
+// echo system('grep -r "FLAG" ../../../..');
+echo system('find ../../../.. -name "*FLAG*"');
 // echo system('cd ../../spool; ls -LR');
 ?>
